@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254A675420232ACF00A448C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A675320232ACF00A448C8 /* AppDelegate.m */; };
+		254A675720232ACF00A448C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A675620232ACF00A448C8 /* ViewController.m */; };
+		254A675A20232ACF00A448C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254A675820232ACF00A448C8 /* Main.storyboard */; };
+		254A675C20232ACF00A448C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254A675B20232ACF00A448C8 /* Assets.xcassets */; };
+		254A675F20232ACF00A448C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254A675D20232ACF00A448C8 /* LaunchScreen.storyboard */; };
+		254A676220232ACF00A448C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A676120232ACF00A448C8 /* main.m */; };
+		254A676C20232ACF00A448C8 /* uranaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A676B20232ACF00A448C8 /* uranaiTests.m */; };
+		254A677720232ACF00A448C8 /* uranaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A677620232ACF00A448C8 /* uranaiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254A676820232ACF00A448C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254A674720232ACF00A448C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254A674E20232ACF00A448C8;
+			remoteInfo = uranai;
+		};
+		254A677320232ACF00A448C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254A674720232ACF00A448C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254A674E20232ACF00A448C8;
+			remoteInfo = uranai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		254A674F20232ACF00A448C8 /* uranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254A675220232ACF00A448C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		254A675320232ACF00A448C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		254A675520232ACF00A448C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		254A675620232ACF00A448C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		254A675920232ACF00A448C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		254A675B20232ACF00A448C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254A675E20232ACF00A448C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254A676020232ACF00A448C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A676120232ACF00A448C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254A676720232ACF00A448C8 /* uranaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uranaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254A676B20232ACF00A448C8 /* uranaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uranaiTests.m; sourceTree = "<group>"; };
+		254A676D20232ACF00A448C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A677220232ACF00A448C8 /* uranaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uranaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254A677620232ACF00A448C8 /* uranaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uranaiUITests.m; sourceTree = "<group>"; };
+		254A677820232ACF00A448C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254A674C20232ACF00A448C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A676420232ACF00A448C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A676F20232ACF00A448C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254A674620232ACF00A448C8 = {
+			isa = PBXGroup;
+			children = (
+				254A675120232ACF00A448C8 /* uranai */,
+				254A676A20232ACF00A448C8 /* uranaiTests */,
+				254A677520232ACF00A448C8 /* uranaiUITests */,
+				254A675020232ACF00A448C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254A675020232ACF00A448C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254A674F20232ACF00A448C8 /* uranai.app */,
+				254A676720232ACF00A448C8 /* uranaiTests.xctest */,
+				254A677220232ACF00A448C8 /* uranaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254A675120232ACF00A448C8 /* uranai */ = {
+			isa = PBXGroup;
+			children = (
+				254A675220232ACF00A448C8 /* AppDelegate.h */,
+				254A675320232ACF00A448C8 /* AppDelegate.m */,
+				254A675520232ACF00A448C8 /* ViewController.h */,
+				254A675620232ACF00A448C8 /* ViewController.m */,
+				254A675820232ACF00A448C8 /* Main.storyboard */,
+				254A675B20232ACF00A448C8 /* Assets.xcassets */,
+				254A675D20232ACF00A448C8 /* LaunchScreen.storyboard */,
+				254A676020232ACF00A448C8 /* Info.plist */,
+				254A676120232ACF00A448C8 /* main.m */,
+			);
+			path = uranai;
+			sourceTree = "<group>";
+		};
+		254A676A20232ACF00A448C8 /* uranaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				254A676B20232ACF00A448C8 /* uranaiTests.m */,
+				254A676D20232ACF00A448C8 /* Info.plist */,
+			);
+			path = uranaiTests;
+			sourceTree = "<group>";
+		};
+		254A677520232ACF00A448C8 /* uranaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254A677620232ACF00A448C8 /* uranaiUITests.m */,
+				254A677820232ACF00A448C8 /* Info.plist */,
+			);
+			path = uranaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254A674E20232ACF00A448C8 /* uranai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A677B20232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranai" */;
+			buildPhases = (
+				254A674B20232ACF00A448C8 /* Sources */,
+				254A674C20232ACF00A448C8 /* Frameworks */,
+				254A674D20232ACF00A448C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uranai;
+			productName = uranai;
+			productReference = 254A674F20232ACF00A448C8 /* uranai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254A676620232ACF00A448C8 /* uranaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A677E20232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranaiTests" */;
+			buildPhases = (
+				254A676320232ACF00A448C8 /* Sources */,
+				254A676420232ACF00A448C8 /* Frameworks */,
+				254A676520232ACF00A448C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254A676920232ACF00A448C8 /* PBXTargetDependency */,
+			);
+			name = uranaiTests;
+			productName = uranaiTests;
+			productReference = 254A676720232ACF00A448C8 /* uranaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254A677120232ACF00A448C8 /* uranaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A678120232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranaiUITests" */;
+			buildPhases = (
+				254A676E20232ACF00A448C8 /* Sources */,
+				254A676F20232ACF00A448C8 /* Frameworks */,
+				254A677020232ACF00A448C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254A677420232ACF00A448C8 /* PBXTargetDependency */,
+			);
+			name = uranaiUITests;
+			productName = uranaiUITests;
+			productReference = 254A677220232ACF00A448C8 /* uranaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254A674720232ACF00A448C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = shidayamasyuuhei;
+				TargetAttributes = {
+					254A674E20232ACF00A448C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					254A676620232ACF00A448C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 254A674E20232ACF00A448C8;
+					};
+					254A677120232ACF00A448C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 254A674E20232ACF00A448C8;
+					};
+				};
+			};
+			buildConfigurationList = 254A674A20232ACF00A448C8 /* Build configuration list for PBXProject "uranai" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254A674620232ACF00A448C8;
+			productRefGroup = 254A675020232ACF00A448C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254A674E20232ACF00A448C8 /* uranai */,
+				254A676620232ACF00A448C8 /* uranaiTests */,
+				254A677120232ACF00A448C8 /* uranaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254A674D20232ACF00A448C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A675F20232ACF00A448C8 /* LaunchScreen.storyboard in Resources */,
+				254A675C20232ACF00A448C8 /* Assets.xcassets in Resources */,
+				254A675A20232ACF00A448C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A676520232ACF00A448C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A677020232ACF00A448C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254A674B20232ACF00A448C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A675720232ACF00A448C8 /* ViewController.m in Sources */,
+				254A676220232ACF00A448C8 /* main.m in Sources */,
+				254A675420232ACF00A448C8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A676320232ACF00A448C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A676C20232ACF00A448C8 /* uranaiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A676E20232ACF00A448C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A677720232ACF00A448C8 /* uranaiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254A676920232ACF00A448C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254A674E20232ACF00A448C8 /* uranai */;
+			targetProxy = 254A676820232ACF00A448C8 /* PBXContainerItemProxy */;
+		};
+		254A677420232ACF00A448C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254A674E20232ACF00A448C8 /* uranai */;
+			targetProxy = 254A677320232ACF00A448C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		254A675820232ACF00A448C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254A675920232ACF00A448C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		254A675D20232ACF00A448C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254A675E20232ACF00A448C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254A677920232ACF00A448C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		254A677A20232ACF00A448C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254A677C20232ACF00A448C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uranai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254A677D20232ACF00A448C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uranai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		254A677F20232ACF00A448C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uranaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uranai.app/uranai";
+			};
+			name = Debug;
+		};
+		254A678020232ACF00A448C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uranaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uranai.app/uranai";
+			};
+			name = Release;
+		};
+		254A678220232ACF00A448C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uranaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uranai;
+			};
+			name = Debug;
+		};
+		254A678320232ACF00A448C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uranaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uranai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254A674A20232ACF00A448C8 /* Build configuration list for PBXProject "uranai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A677920232ACF00A448C8 /* Debug */,
+				254A677A20232ACF00A448C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A677B20232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A677C20232ACF00A448C8 /* Debug */,
+				254A677D20232ACF00A448C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A677E20232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A677F20232ACF00A448C8 /* Debug */,
+				254A678020232ACF00A448C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A678120232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A678220232ACF00A448C8 /* Debug */,
+				254A678320232ACF00A448C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 254A674720232ACF00A448C8 /* Project object */;
+}

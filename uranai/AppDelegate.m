@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <IgaworksCore/IgaworksCore.h>
+#import <AdSupport/AdSupport.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    if (NSClassFromString(@"ASIdentifierManager")){
+        NSUUID *ifa =[[ASIdentifierManager sharedManager]advertisingIdentifier];
+        BOOL isAppleAdvertisingTrackingEnalbed = [[ASIdentifierManager sharedManager]isAdvertisingTrackingEnabled];
+        [IgaworksCore setAppleAdvertisingIdentifier:[ifa UUIDString] isAppleAdvertisingTrackingEnabled:isAppleAdvertisingTrackingEnalbed];
+        
+        NSLog(@"[ifa UUIDString] %@", [ifa UUIDString]);
+    }
+    
+    [IgaworksCore igaworksCoreWithAppKey:igaworksappkey andHashKey:igaworkshashkey];
     // Override point for customization after application launch.
+    
+    
     return YES;
 }
 

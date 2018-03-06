@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  uranai
+//
+//  Created by shidayamasyuuhei on 2018/02/05.
+//  Copyright © 2018年 shidayamasyuuhei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#define topurl @"http://18754bf88134d89f.main.jp/uranai2018/top.jpg"
+#define contentsurl1 @"https://www.google.co.jp/"
+#define contentsurl2 @"https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88"
+#define contentsurl3 @"https://www.iqos.jp/"
+#define contentsurl4 @"https://pad.gungho.jp/member/"
+
+#define igaworksappkey @"334531411"
+#define igaworkshashkey @"ad1393c2dc5d42ad"
+
+
+
+#endif /* PrefixHeader_pch */

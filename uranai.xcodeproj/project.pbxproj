@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251C4DFA204D089200BDA2B4 /* menu_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 251C4DF5204D089100BDA2B4 /* menu_01.png */; };
+		251C4DFB204D089200BDA2B4 /* menu_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 251C4DF6204D089100BDA2B4 /* menu_05.png */; };
+		251C4DFC204D089200BDA2B4 /* menu_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 251C4DF7204D089100BDA2B4 /* menu_03.png */; };
+		251C4DFD204D089200BDA2B4 /* menu_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 251C4DF8204D089200BDA2B4 /* menu_04.png */; };
+		251C4DFE204D089200BDA2B4 /* menu_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 251C4DF9204D089200BDA2B4 /* menu_02.png */; };
+		251C4E01204D38BC00BDA2B4 /* FortuneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251C4E00204D38BC00BDA2B4 /* FortuneViewController.m */; };
 		254A675420232ACF00A448C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A675320232ACF00A448C8 /* AppDelegate.m */; };
 		254A675720232ACF00A448C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A675620232ACF00A448C8 /* ViewController.m */; };
 		254A675A20232ACF00A448C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254A675820232ACF00A448C8 /* Main.storyboard */; };
@@ -15,6 +21,9 @@
 		254A676220232ACF00A448C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A676120232ACF00A448C8 /* main.m */; };
 		254A676C20232ACF00A448C8 /* uranaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A676B20232ACF00A448C8 /* uranaiTests.m */; };
 		254A677720232ACF00A448C8 /* uranaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A677620232ACF00A448C8 /* uranaiUITests.m */; };
+		254A6786202864B800A448C8 /* WkWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A6785202864B800A448C8 /* WkWebView.m */; };
+		254A678C202C606C00A448C8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A678A202C606C00A448C8 /* MBProgressHUD.m */; };
+		F8136E5FC6C9B96668C7FE95 /* libPods-uranai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1577EB5D4A45746615CD6A0 /* libPods-uranai.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251C4DF5204D089100BDA2B4 /* menu_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_01.png; sourceTree = "<group>"; };
+		251C4DF6204D089100BDA2B4 /* menu_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_05.png; sourceTree = "<group>"; };
+		251C4DF7204D089100BDA2B4 /* menu_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_03.png; sourceTree = "<group>"; };
+		251C4DF8204D089200BDA2B4 /* menu_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_04.png; sourceTree = "<group>"; };
+		251C4DF9204D089200BDA2B4 /* menu_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_02.png; sourceTree = "<group>"; };
+		251C4DFF204D38BC00BDA2B4 /* FortuneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FortuneViewController.h; sourceTree = "<group>"; };
+		251C4E00204D38BC00BDA2B4 /* FortuneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FortuneViewController.m; sourceTree = "<group>"; };
 		254A674F20232ACF00A448C8 /* uranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254A675220232ACF00A448C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		254A675320232ACF00A448C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,14 @@
 		254A677220232ACF00A448C8 /* uranaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uranaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		254A677620232ACF00A448C8 /* uranaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uranaiUITests.m; sourceTree = "<group>"; };
 		254A677820232ACF00A448C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A6784202864B800A448C8 /* WkWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WkWebView.h; sourceTree = "<group>"; };
+		254A6785202864B800A448C8 /* WkWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WkWebView.m; sourceTree = "<group>"; };
+		254A678720286B6D00A448C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		254A678A202C606C00A448C8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		254A678B202C606C00A448C8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		35E79A68E6D1FB979CD593E1 /* Pods-uranai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uranai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uranai/Pods-uranai.debug.xcconfig"; sourceTree = "<group>"; };
+		A433E97871BC206156657146 /* Pods-uranai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uranai.release.xcconfig"; path = "Pods/Target Support Files/Pods-uranai/Pods-uranai.release.xcconfig"; sourceTree = "<group>"; };
+		D1577EB5D4A45746615CD6A0 /* libPods-uranai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uranai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8136E5FC6C9B96668C7FE95 /* libPods-uranai.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251C4DF4204D086100BDA2B4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				251C4DF5204D089100BDA2B4 /* menu_01.png */,
+				251C4DF9204D089200BDA2B4 /* menu_02.png */,
+				251C4DF7204D089100BDA2B4 /* menu_03.png */,
+				251C4DF8204D089200BDA2B4 /* menu_04.png */,
+				251C4DF6204D089100BDA2B4 /* menu_05.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		254A674620232ACF00A448C8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				254A676A20232ACF00A448C8 /* uranaiTests */,
 				254A677520232ACF00A448C8 /* uranaiUITests */,
 				254A675020232ACF00A448C8 /* Products */,
+				5254A8A2A57E1E02DE57871D /* Pods */,
+				92005F1EBC1BD90BCFDF1E34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +140,20 @@
 		254A675120232ACF00A448C8 /* uranai */ = {
 			isa = PBXGroup;
 			children = (
+				251C4DF4204D086100BDA2B4 /* image */,
 				254A675220232ACF00A448C8 /* AppDelegate.h */,
 				254A675320232ACF00A448C8 /* AppDelegate.m */,
 				254A675520232ACF00A448C8 /* ViewController.h */,
 				254A675620232ACF00A448C8 /* ViewController.m */,
 				254A675820232ACF00A448C8 /* Main.storyboard */,
+				251C4DFF204D38BC00BDA2B4 /* FortuneViewController.h */,
+				251C4E00204D38BC00BDA2B4 /* FortuneViewController.m */,
 				254A675B20232ACF00A448C8 /* Assets.xcassets */,
 				254A675D20232ACF00A448C8 /* LaunchScreen.storyboard */,
-				254A676020232ACF00A448C8 /* Info.plist */,
-				254A676120232ACF00A448C8 /* main.m */,
+				254A6784202864B800A448C8 /* WkWebView.h */,
+				254A6785202864B800A448C8 /* WkWebView.m */,
+				254A6789202C605D00A448C8 /* Library */,
+				254A67882029C15600A448C8 /* Supporting FIles */,
 			);
 			path = uranai;
 			sourceTree = "<group>";
@@ -132,6 +176,42 @@
 			path = uranaiUITests;
 			sourceTree = "<group>";
 		};
+		254A67882029C15600A448C8 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				254A676120232ACF00A448C8 /* main.m */,
+				254A678720286B6D00A448C8 /* PrefixHeader.pch */,
+				254A676020232ACF00A448C8 /* Info.plist */,
+			);
+			name = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		254A6789202C605D00A448C8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				254A678B202C606C00A448C8 /* MBProgressHUD.h */,
+				254A678A202C606C00A448C8 /* MBProgressHUD.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		5254A8A2A57E1E02DE57871D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35E79A68E6D1FB979CD593E1 /* Pods-uranai.debug.xcconfig */,
+				A433E97871BC206156657146 /* Pods-uranai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92005F1EBC1BD90BCFDF1E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1577EB5D4A45746615CD6A0 /* libPods-uranai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 254A677B20232ACF00A448C8 /* Build configuration list for PBXNativeTarget "uranai" */;
 			buildPhases = (
+				7C5F6DAD2C9C6FAC32A25275 /* [CP] Check Pods Manifest.lock */,
 				254A674B20232ACF00A448C8 /* Sources */,
 				254A674C20232ACF00A448C8 /* Frameworks */,
 				254A674D20232ACF00A448C8 /* Resources */,
+				DF543BCDEE345ACC5533E03C /* [CP] Embed Pods Frameworks */,
+				3681C63AA2528661ECA08C1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +324,11 @@
 				254A675F20232ACF00A448C8 /* LaunchScreen.storyboard in Resources */,
 				254A675C20232ACF00A448C8 /* Assets.xcassets in Resources */,
 				254A675A20232ACF00A448C8 /* Main.storyboard in Resources */,
+				251C4DFC204D089200BDA2B4 /* menu_03.png in Resources */,
+				251C4DFE204D089200BDA2B4 /* menu_02.png in Resources */,
+				251C4DFD204D089200BDA2B4 /* menu_04.png in Resources */,
+				251C4DFB204D089200BDA2B4 /* menu_05.png in Resources */,
+				251C4DFA204D089200BDA2B4 /* menu_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +348,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3681C63AA2528661ECA08C1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-uranai/Pods-uranai-resources.sh",
+				"${PODS_ROOT}/AdPopcornDA/AdPopcornDA.bundle",
+				"${PODS_ROOT}/AdPopcornOfferwall/AdPopcornOfferwall.bundle",
+				"${PODS_ROOT}/IgaworksCoupon/IgaworksCoupon.bundle",
+				"${PODS_ROOT}/IgaworksNanoo/IgaworksNanoo.bundle",
+				"${PODS_ROOT}/LiveOps/LiveOps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AdPopcornDA.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AdPopcornOfferwall.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IgaworksCoupon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IgaworksNanoo.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LiveOps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uranai/Pods-uranai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5F6DAD2C9C6FAC32A25275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uranai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF543BCDEE345ACC5533E03C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uranai/Pods-uranai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		254A674B20232ACF00A448C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				254A675720232ACF00A448C8 /* ViewController.m in Sources */,
+				254A6786202864B800A448C8 /* WkWebView.m in Sources */,
+				251C4E01204D38BC00BDA2B4 /* FortuneViewController.m in Sources */,
+				254A678C202C606C00A448C8 /* MBProgressHUD.m in Sources */,
 				254A676220232ACF00A448C8 /* main.m in Sources */,
 				254A675420232ACF00A448C8 /* AppDelegate.m in Sources */,
 			);
@@ -428,9 +581,11 @@
 		};
 		254A677C20232ACF00A448C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E79A68E6D1FB979CD593E1 /* Pods-uranai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = uranai/PrefixHeader.pch;
 				INFOPLIST_FILE = uranai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranai;
@@ -441,9 +596,11 @@
 		};
 		254A677D20232ACF00A448C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A433E97871BC206156657146 /* Pods-uranai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = uranai/PrefixHeader.pch;
 				INFOPLIST_FILE = uranai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uranai.uranai;
